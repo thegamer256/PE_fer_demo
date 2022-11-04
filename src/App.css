@@ -2,8 +2,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.42em;
-
-
 }
 
 html {
@@ -83,20 +81,9 @@ h2 a {
   padding-left: 2%;
 }
 
-
-
-
-
 .container td:first-child {
   color: #FB667A;
 }
-
-/* .container tr:hover {
-  background-color: #464A52;
-  -webkit-box-shadow: 0 6px 6px -6px #0E1119;
-  -moz-box-shadow: 0 6px 6px -6px #0E1119;
-  box-shadow: 0 6px 6px -6px #0E1119;
-} */
 
 @media (max-width: 800px) {
 
@@ -112,9 +99,9 @@ h2 a {
 }
 
 .input-text {
-  padding: 15px 10px;
+  padding: 1em;
   margin: 0px 10px;
-  width: 20%;
+  width: 100%;
 }
 
 .row {
@@ -124,30 +111,9 @@ h2 a {
   margin-top: 10px;
 }
 
-.input-submit {
-  margin: 10px 15px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: red;
-  background-color: aliceblue;
-}
-
 .errorstyle {
   width: 80%;
   margin: 0 auto;
-  color: red;
-}
-
-.footerclass {
-  position: sticky;
-
-  top: 100%;
-
-  background: #2c3e50;
-
   text-align: center;
-
-  color: #fff;
-
-  padding: 1rem;
+  color: red;
 }
